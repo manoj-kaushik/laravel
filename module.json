@@ -1,0 +1,17 @@
+{
+    "name": "Demowebinar",
+    "alias": "demowebinar",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Demowebinar\\Providers\\DemowebinarServiceProvider",
+        "Modules\\Demowebinar\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {
+        "IntegrationHelper": "Modules\\Demowebinar\\Helpers\\IntegrationHelper"
+    },
+    "files": [],
+    "requires": []
+}
